@@ -7,4 +7,4 @@ Basic template for user login in Node using Passport and MongoDB
 3. Connect to MongoDB and get your Key.
 4. Copy the key and place it in /config/keys.js
 5. Type "npm run dev" and system running on port :5000
-6. to view go to localhhost:5000/
+6. to view go to http://localhost/:5000/
