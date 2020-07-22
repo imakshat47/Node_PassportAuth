@@ -25,7 +25,6 @@ mongoose.connect(db, {
 app.use(expressLayouts);
 app.set('view engine', 'ejs');
 
-
 //  BodyParser
 app.use(express.urlencoded({ extended: false }));
 
@@ -55,7 +54,7 @@ app.use((req, res, next) => {
 app.use('/', require('./routes/index'));
 app.use('/user', require('./routes/user'));
 
-
+//  To set the port :5000
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, console.log(`Server started on post ${PORT}`));
